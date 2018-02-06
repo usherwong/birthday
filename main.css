@@ -180,11 +180,11 @@ body {
   font-size: 16px;
 }
 
-#slide-1:target .s1 {
+#slide1:target .s1 {
   animation: 8s 3s 1 dropdown linear backwards alternate ;
 }
 
-#slide-1:target .s2 {
+#slide1:target .s2 {
   animation: 8s 11s 1 dropdown linear forwards;
 }
 
@@ -226,15 +226,15 @@ body {
     z-index: 2;
 }
 
-#slide1:target {
+#slide5:target {
   background-position: 0 -50vh, 0 -50vh, 2.5% 50vh, 2.5% 50vh;
 }
 
-#slide1 {
+#slide5 {
   transition: 5s .5s background-position;
 }
 
-#slide1, #css-animations {
+#slide5, #css-animations {
     background-color: transparent;
     background-repeat: repeat-x;
     background-image: linear-gradient(225deg, slategray 50%, transparent 50%), linear-gradient(135deg, slategray 50%, transparent 50%), linear-gradient(225deg, transparent 50%, slategray 50%), linear-gradient(135deg, transparent 50%, slategray 50%);
@@ -251,7 +251,7 @@ body {
     image-rendering: crisp-edges;
 }
 
-#slide1 > h1, #css-animations > h1 {
+#slide5 > h1, #css-animations > h1 {
     background: 0;
     color: slategray;
     text-shadow: none;
